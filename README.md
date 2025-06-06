@@ -8,7 +8,7 @@ In this study, we proposed HDVAE (Hierarchical Decoupled Variational Autoencoder
 Please check the tutorial [Tutorials of HDVAE](https://hdvae-tutorials.readthedocs.io/en/latest/index.html)
 
 ## DataSets
-<font size=4>The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)</font><br>
+**The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)**<br>
 The raw Human DLPFC data can be downloaded [here](http://spatial.libd.org/spatialLIBD/)<br>
 The raw breast cancer data can be downloaded [here](https://www.10xgenomics.com/datasets/human-breast-cancer-block-a-section-1-1-standard-1-1-0;)<br>
 The raw Mouse Brain data can be downloaded [here](https://www.10xgenomics.com/datasets/mouse-kidney-section-coronal-1-standard-1-1-0) <br>
@@ -39,6 +39,7 @@ The raw STARmap mouse visual cortex data can be dowmload [here](https://www.drop
     ├── README.md
     ├── LICENSE
     └── setup.py
+**The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)**
 
 
 ## Compared tools
