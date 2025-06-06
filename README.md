@@ -14,8 +14,9 @@ The raw breast cancer data can be downloaded [here](https://www.10xgenomics.com/
 The raw Mouse Brain data can be downloaded [here](https://www.10xgenomics.com/datasets/mouse-kidney-section-coronal-1-standard-1-1-0) <br>
 The raw Slide-SeqV2 mouse olfactory bulb data can be download [here](https://singlecell.broadinstitute.org/single_cell/study/SCP815/highly-sensitive-spatial-transcriptomics-at-near-cellular-resolution-with-slide-seqv2#study-summary)<br>
 The raw STARmap mouse visual cortex data can be dowmload [here](https://www.dropbox.com/sh/f7ebheru1lbz91s/AADm6D54GSEFXB1feRy6OSASa/visual_1020/20180505_BY3_1kgenes?dl=0&subfolder_nav_tracking=1)<br>
-thanks for the data from [SEDR_analyses](https://github.com/JinmiaoChenLab/SEDR_analyses), [STAGATE](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing), and [STGMVA](https://zenodo.org/records/8141084).<br>
 The raw STARmap mouse visual cortex data can be dowmload [here](https://www.dropbox.com/sh/f7ebheru1lbz91s/AADm6D54GSEFXB1feRy6OSASa/visual_1020/20180505_BY3_1kgenes?dl=0&subfolder_nav_tracking=1)<br>
+thanks for the data from [SEDR_analyses](https://github.com/JinmiaoChenLab/SEDR_analyses), [STAGATE](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing), and [STGMVA](https://zenodo.org/records/8141084).<br>
+
 ## Project structure
     HDVAE/
     ├── data/
