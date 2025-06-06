@@ -6,12 +6,16 @@ In this study, we proposed HDVAE (Hierarchical Decoupled Variational Autoencoder
 
 ## Starting
 Please check the tutorial [Tutorials of HDVAE](https://hdvae-tutorials.readthedocs.io/en/latest/index.html)
-1. Python
-    git  clone https://github.com/Anglejuebi/HDVAE
+
+1.Python
+
+    git clone https://github.com/Anglejuebi/HDVAE
     cd HDVAE
     python setup.py build
     python setup.py install
+
 2.Anaconda (recommend)
+
     conda create -n HDVAE python=3.11
     conda activate HDVAE
     git clone https://github.com/Anglejuebi/HDVAE
