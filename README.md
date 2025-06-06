@@ -4,7 +4,7 @@
 ![img.png](img.png)
 In this study, we proposed HDVAE (Hierarchical Decoupled Variational Autoencoder) which significantly improved the identification ability of the spatial domain in ST data through multi-hop graph convolution and hierarchical decoupling structure. Its core innovation lies in using multi-hop graph convolution to expand the receptive field of spots and capture long-distance spatial dependencies, while achieving hierarchical decoupling of local and global features through a series of HDVAE Blocks, and ensuring semantic consistency between levels by combining cross-level similarity constraints. Compared to other advanced methods, HDVAE shows significant advantages in tests on multiple platforms. The ARI on the human DLPFC section 151673 is improved to 0.7182, and the iLISI score of the batch effect correction task reaches 1.97. Moreover, the model, through lightweight variational inference and implicit multi-hop computation, reduces the CUDA memory occupation (only 239MB) while being compatible with single-cell high-resolution data (such as Stereo-seq) and large-scale tissue sections, verifying its cross-platform robustness. These advantages make HDVAE an advanced tool in the current field of spatial omics that combines both accuracy and efficiency.
 
-## Starting
+## Staring
 Please check the tutorial [Tutorials of HDVAE](https://hdvae-tutorials.readthedocs.io/en/latest/index.html)
 
 ## DataSets
@@ -14,7 +14,31 @@ The raw breast cancer data can be downloaded [here](https://www.10xgenomics.com/
 The raw Mouse Brain data can be downloaded [here](https://www.10xgenomics.com/datasets/mouse-kidney-section-coronal-1-standard-1-1-0) <br>
 The raw Slide-SeqV2 mouse olfactory bulb data can be download [here](https://singlecell.broadinstitute.org/single_cell/study/SCP815/highly-sensitive-spatial-transcriptomics-at-near-cellular-resolution-with-slide-seqv2#study-summary)<br>
 The raw STARmap mouse visual cortex data can be dowmload [here](https://www.dropbox.com/sh/f7ebheru1lbz91s/AADm6D54GSEFXB1feRy6OSASa/visual_1020/20180505_BY3_1kgenes?dl=0&subfolder_nav_tracking=1)<br>
-thanks for the data from [SEDR_analyses](https://github.com/JinmiaoChenLab/SEDR_analyses), [STAGATE](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing), and [STGMVA](https://zenodo.org/records/8141084).
+thanks for the data from [SEDR_analyses](https://github.com/JinmiaoChenLab/SEDR_analyses), [STAGATE](https://drive.google.com/drive/folders/10lhz5VY7YfvHrtV40MwaqLmWz56U9eBP?usp=sharing), and [STGMVA](https://zenodo.org/records/8141084).<br>
+The raw STARmap mouse visual cortex data can be dowmload [here](https://www.dropbox.com/sh/f7ebheru1lbz91s/AADm6D54GSEFXB1feRy6OSASa/visual_1020/20180505_BY3_1kgenes?dl=0&subfolder_nav_tracking=1)<br>
+## Project structure
+    HDVAE/
+    ├── data/
+    │   ├── Adult_Mouse_Brain/
+    │   ├── BRCA1/
+    │   ├── DLPFC/
+    │   │   ├── 151507/
+    │   │   ├── .../
+    │   │   ├── 151675/
+    │   │   └── 151676/
+    │   │       ├── spatial/
+    │   │       ├── filtered_feature_bc_matrix.h5
+    │   │       └── metadata.tsv
+    │   ├── .../
+    │   ├── mouse_brain_anterior_posterior_sections.h5ad
+    │   ├── mouse_breast_cancer_sample1_section1&2.h5ad
+    │   └── STARmap_20180505_BY3_1k.h5ad
+    ├── HDVAE/
+    ├── Tutorials/
+    ├── requirements.txt
+    ├── README.md
+    ├── LICENSE
+    └── setup.py
 
 
 ## Compared tools
