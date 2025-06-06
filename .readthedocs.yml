@@ -1,0 +1,20 @@
+version: 2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.9"
+
+python:
+  install:
+    - requirements: requirements.txt
+
+sphinx:
+  builder: html
+  configuration: docs/source/conf.py
+
+formats:
+  - htmlzip
+
+build:
+  jobs: 2
