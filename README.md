@@ -56,6 +56,7 @@ thanks for the data from [SEDR_analyses](https://github.com/JinmiaoChenLab/SEDR_
     ├── LICENSE
     └── setup.py
 **The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)**
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15599070.svg)](https://doi.org/10.5281/zenodo.15599070)
 
 
 ## Compared tools
