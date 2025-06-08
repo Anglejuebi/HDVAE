@@ -24,7 +24,7 @@ Please check the tutorial [Tutorials of HDVAE](https://hdvae-tutorials.readthedo
     python setup.py install
 
 ## DataSets
-**The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)** &nbsp &nbsp &nbs p&nbsp [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15599070.svg)](https://doi.org/10.5281/zenodo.15599070)<br>
+**The complete experimental dataset of HDVAE is available [here](https://zenodo.org/records/15599070)** &nbsp; &nbsp;  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15599070.svg)](https://doi.org/10.5281/zenodo.15599070)<br>
 The raw Human DLPFC data can be downloaded [here](http://spatial.libd.org/spatialLIBD/)<br>
 The raw breast cancer data can be downloaded [here](https://www.10xgenomics.com/datasets/human-breast-cancer-block-a-section-1-1-standard-1-1-0;)<br>
 The raw Mouse Brain data can be downloaded [here](https://www.10xgenomics.com/datasets/mouse-kidney-section-coronal-1-standard-1-1-0) <br>
